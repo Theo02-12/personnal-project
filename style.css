@@ -19,7 +19,6 @@ h1{
     font-size: 1.2em;
     animation-name: spawn;
     animation-duration: 2s;
-   
 }
 @keyframes spawn {
     0%{
@@ -34,8 +33,9 @@ h1 span{
     margin: 15px;
 }
 h2{
-    margin-top: 20px;
+    margin-top: 30px;
     font-size: 1em;
+    color: rgb(0, 191, 255);
 }
 
 /* NAVBAR*/
@@ -123,4 +123,14 @@ div:nth-child(4){
     background-size:cover;
     background-position: 100%;
     border-radius: 20px 0px 20px 0px;
+    opacity: 0;
+    transition: 1s linear;
+}
+#page2 p{
+    font-size: 1.4em;
+    margin-top: 30px;
+    font-family: sans-serif;
+    width: 80%;
+    transform: translateX(-500px);
+    transition: all 1s linear;
 }

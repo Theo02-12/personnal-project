@@ -21,9 +21,9 @@
         <button id="close"onclick="closeMenu()" class="btn"><i class="fa-solid fa-x"></i></button>
         <nav>
             <ul>
-                <li><a href="#">CONTACT</a></li>
-                <li><a href="#">PRODUCTS</a></li>
+                <li><a onclick="show()" href="#page2">ABOUT ME</a></li>
                 <li><a href="#">PROJECTS</a></li>
+                <li><a href="#">CONTACT</a></li>
             </ul>
         </nav>
     </div>
@@ -32,13 +32,16 @@
         <h1>THÉO <span>COUVELARD</span></h1>
         <h2>Web Developper</h2>
         <span>
-            <a href="#page2"><i class="fa-solid fa-arrow-down"></i></a>
+            <a onclick="show()" href="#page2"><i class="fa-solid fa-arrow-down"></i></a>
         </span>
     </div>
 
     <div id="page2">
-        <div class="img"></div>
-        <p></p>
+        <div id="img" class="img"></div>
+        <p id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum deserunt itaque quos dolorem ratione consequuntur
+             eum cupiditate natus, error molestias debitis,
+             nulla hic nesciunt? Quia asperiores ullam assumenda velit culpa.
+        </p>
     </div>
 </body>
 </html>
