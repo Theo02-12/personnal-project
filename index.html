@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <script src="app.js"></script>
-    <title>Personnal Site</title>
+    <title>Portfolio</title>
 </head>
 <body>
     <div class="btn-open">
@@ -22,7 +22,7 @@
         <nav>
             <ul>
                 <li><a onclick="show()" href="#page2">ABOUT ME</a></li>
-                <li><a href="#">PROJECTS</a></li>
+                <li><a href="#page3">MY PROJECTS</a></li>
                 <li><a href="#">CONTACT</a></li>
             </ul>
         </nav>
@@ -38,30 +38,31 @@
 
     <div id="page2">
         <div id="img" class="img"></div>
-        <p id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, dicta temporibus atque numquam nihil quaerat voluptates. 
-            Facilis eveniet veritatis temporibus doloribus, neque officia? Reiciendis ea beatae quod accusamus eos odit!
+        <p id="text">I started to coding during the quarantine with HTML and CSS, now I'm learning JavaScript. I made some personnal projects like popular website reproduction (Google, Netflix).
+            I'm coding everyday because I love it and I want to become a great developer in the coming years.
+        
         </p>
 
         <span>
-            <a onclick="show()" href="#page3"><i class="fa-solid fa-arrow-down"></i></a>
+            <a href="#page3"><i class="fa-solid fa-arrow-down"></i></a>
         </span>
     </div>
 
     <div id="page3">
         <div class="grid">
             <div class="content">
-                <div class="img-content"></div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit consequuntur ipsa, minus atque reiciendis corporis.</p>
+                <div class="img-content first"></div>
+                <p class="project-text">In this project I just did a reproduction of the login page of Netflix, It's a simple exercise but very nice to train with Flexbox.</p>
             </div>
 
             <div class="content">
-                <div class="img-content"></div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur minus necessitatibus nemo rerum nisi possimus?</p>
+                <div class="img-content two"></div>
+                <p class="project-text">My second project was to make a reproduction of the Google search website, It's a simple exercise again but is good to train with it. </p>
             </div>
 
             <div class="content">
-                <div class="img-content"></div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error praesentium non inventore voluptas vel facere.</p>
+                <div class="img-content three"></div>
+                <p class="project-text">My last and most recent project, I make a web personnal resume for a communications officer with Bootstrap 5 and JavaScript.</p>
             </div>
         </div>
     </div>
