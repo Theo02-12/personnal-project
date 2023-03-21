@@ -9,7 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Portfolio</title>
 </head>
 <body>
@@ -37,10 +39,9 @@
     </div>
 
     <div id="page2">
-        <div id="img" class="img"></div>
-        <p id="text">I started to coding during the quarantine with HTML and CSS, now I'm learning JavaScript. I made some personnal projects like popular website reproduction (Google, Netflix).
+        <div id="img" class="img" data-aos="fade-right"></div>
+        <p id="text" data-aos="fade-left">I started to coding during the quarantine with HTML and CSS, now I'm learning JavaScript. I made some personnal projects like popular website reproduction (Google, Netflix).
             I'm coding everyday because I love it and I want to become a great developer in the coming years.
-        
         </p>
 
         <span>
@@ -50,21 +51,27 @@
 
     <div id="page3">
         <div class="grid">
-            <div class="content">
-                <div class="img-content first"></div>
+            <div class="content" >
+                <div class="img-content first" data-aos="flip-left" data-aos-duration="1500"></div>
                 <p class="project-text">In this project I just did a reproduction of the login page of Netflix, It's a simple exercise but very nice to train with Flexbox.</p>
             </div>
 
             <div class="content">
-                <div class="img-content two"></div>
+                <div class="img-content two" data-aos="zoom-in"></div>
                 <p class="project-text">My second project was to make a reproduction of the Google search website, It's a simple exercise again but is good to train with it. </p>
             </div>
 
             <div class="content">
-                <div class="img-content three"></div>
+                <div class="img-content three" data-aos="fade-down"></div>
                 <p class="project-text">My last and most recent project, I make a web personnal resume for a communications officer with Bootstrap 5 and JavaScript.</p>
             </div>
         </div>
     </div>
+
+
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
